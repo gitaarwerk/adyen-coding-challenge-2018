@@ -1,24 +1,26 @@
-import moment from 'moment';
 import { get, parseRequest } from '../utils/fetch';
+import { locationFormatter, getApiParams } from '../utils/foursquareApiFormatter';
 import config from '../config';
-
-var date = new Date();
-var formattedDate = moment(date).format('YYYYMMDD');
-
-const { apiBaseUrl, client_id, client_secret } = config;
-const locationFormatter = (longitude, latitude) => `${latitude},${longitude}`;
 
 /**
  * @returns {Promise}
  */
-export function getPizzaPlaces({ longitude, latitude }) {
-  return get(`${apiBaseUrl}/venues/explore`, {
-    client_id,
-    client_secret,
+export function getPlaces({ place, longitude, latitude }) {
+  return get(`${config.apiBaseUrl}/venues/explore`, {
     ll: locationFormatter(longitude, latitude),
-    query: 'food',
-    v: formattedDate,
+    query: place,
+    ...getApiParams,
     radius: 1000,
-    limit: 20
+    limit: 50
+  }).then(parseRequest);
+}
+
+/**
+ * @param {string} id
+ * @returns {Promise}
+ */
+export function getVenueDetails(id) {
+  return get(`${config.apiBaseUrl}/venues/${id}`, {
+    ...getApiParams
   }).then(parseRequest);
 }

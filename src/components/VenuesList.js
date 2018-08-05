@@ -8,14 +8,8 @@ import ListSubheader from '@material-ui/core/ListSubheader';
 import Avatar from '@material-ui/core/Avatar';
 import CircularProgress from '@material-ui/core/CircularProgress';
 
-const VenuesList = ({ nearbyVenues, isLoading }) => (
+const VenuesList = ({ nearbyVenues, isLoading, onClickOpenItem }) => (
   <div>
-    {isLoading && (
-      <div style={{ color: '#1b2b44', textAlign: 'center', padding: '16px 8px', width: '100%' }}>
-        <p>Loading venues...</p>
-        <CircularProgress style={{ display: 'inline-block' }} thickness={1} />
-      </div>
-    )}
     <List
       component="nav"
       subheader={
@@ -24,9 +18,16 @@ const VenuesList = ({ nearbyVenues, isLoading }) => (
         </ListSubheader>
       }
     >
+      {!nearbyVenues.length && !isLoading && <ListItem>Getting coordinatates...</ListItem>}
+      {isLoading && (
+        <div style={{ color: '#1b2b44', textAlign: 'center', padding: '16px 8px', width: '100%' }}>
+          <p>Loading venues...</p>
+          <CircularProgress style={{ display: 'inline-block' }} thickness={1} />
+        </div>
+      )}
       {nearbyVenues.map(item => (
         <ListItem key={item.id} disableGutters={true}>
-          <ListItem button>
+          <ListItem button onClick={() => onClickOpenItem(item.id)}>
             <ListItemIcon>
               <Avatar alt={item.icon.name} src={item.icon.url} />
             </ListItemIcon>

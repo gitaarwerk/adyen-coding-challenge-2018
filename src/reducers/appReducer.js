@@ -4,7 +4,10 @@ import * as types from '../actionTypes/actionTypes';
 const defaultState = {
   location: 'not obtained yet...',
   isLoading: false,
-  nearbyVenues: []
+  nearbyVenues: [],
+  isLoadingVenueItem: false,
+  venueItemPaneIsOpen: false,
+  venueItem: {}
 };
 
 export default handleActions(
@@ -28,6 +31,30 @@ export default handleActions(
       ...state,
       isLoading: false,
       nearbyVenues: venues
+    }),
+
+    [types.LOAD_VENUE_ITEM]: state => ({
+      ...state,
+      isLoadingVenueItem: true,
+      venueItemPaneIsOpen: false
+    }),
+
+    [types.LOAD_VENUE_ITEM_SUCCESS]: (state, { payload: venueItem }) => ({
+      ...state,
+      isLoadingVenueItem: false,
+      venueItemPaneIsOpen: true,
+      venueItem: { ...venueItem }
+    }),
+
+    [types.LOAD_VENUE_ITEM_FAILED]: state => ({
+      ...state,
+      isLoadingVenueItem: false,
+      venueItemPaneIsOpen: false
+    }),
+
+    [types.CLOSE_VENUE_PANEL]: state => ({
+      ...state,
+      venueItemPaneIsOpen: false
     })
   },
   defaultState

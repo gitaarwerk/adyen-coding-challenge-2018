@@ -3,6 +3,10 @@ export const geoLocation = {
   longitude: 'abc'
 };
 
+export const venueItem = {
+  name: 'Adyen'
+};
+
 export const venues = [
   {
     id: '4dd569c0d4c05d5096b871d4',

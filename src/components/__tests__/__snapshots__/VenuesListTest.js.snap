@@ -49,9 +49,315 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": Array [
+      "children": <WithStyles(List)
+        component="nav"
+        subheader={
+                <WithStyles(ListSubheader)
+                        component="div"
+                        style={
+                                Object {
+                                        "color": "#00112c",
+                                        "fontSize": "2.4rem",
+                                      }
+                        }
+                >
+                        Nearby venues
+                </WithStyles(ListSubheader)>
+        }
+>
+        <WithStyles(ListItem)
+                disableGutters={true}
+        >
+                <WithStyles(ListItem)
+                        button={true}
+                        onClick={[Function]}
+                >
+                        <WithStyles(ListItemIcon)>
+                                <WithStyles(Avatar)
+                                        alt="Pizza Places"
+                                        src="https://ss3.4sqi.net/img/categories_v2/food/pizza_bg_64.png"
+                                />
+                        </WithStyles(ListItemIcon)>
+                        <WithStyles(ListItemText)
+                                inset={true}
+                                primary="Pizza Picasso & Grill"
+                        />
+                </WithStyles(ListItem)>
+        </WithStyles(ListItem)>
+        <WithStyles(ListItem)
+                disableGutters={true}
+        >
+                <WithStyles(ListItem)
+                        button={true}
+                        onClick={[Function]}
+                >
+                        <WithStyles(ListItemIcon)>
+                                <WithStyles(Avatar)
+                                        alt="Work Places"
+                                        src="https://ss3.4sqi.net/img/categories_v2/work/work_bg_64.png"
+                                />
+                        </WithStyles(ListItemIcon)>
+                        <WithStyles(ListItemText)
+                                inset={true}
+                                primary="Adyen"
+                        />
+                </WithStyles(ListItem)>
+        </WithStyles(ListItem)>
+</WithStyles(List)>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          false,
+          false,
+          Array [
+            <WithStyles(ListItem)
+              disableGutters={true}
+>
+              <WithStyles(ListItem)
+                            button={true}
+                            onClick={[Function]}
+              >
+                            <WithStyles(ListItemIcon)>
+                                          <WithStyles(Avatar)
+                                                        alt="Pizza Places"
+                                                        src="https://ss3.4sqi.net/img/categories_v2/food/pizza_bg_64.png"
+                                          />
+                            </WithStyles(ListItemIcon)>
+                            <WithStyles(ListItemText)
+                                          inset={true}
+                                          primary="Pizza Picasso & Grill"
+                            />
+              </WithStyles(ListItem)>
+</WithStyles(ListItem)>,
+            <WithStyles(ListItem)
+              disableGutters={true}
+>
+              <WithStyles(ListItem)
+                            button={true}
+                            onClick={[Function]}
+              >
+                            <WithStyles(ListItemIcon)>
+                                          <WithStyles(Avatar)
+                                                        alt="Work Places"
+                                                        src="https://ss3.4sqi.net/img/categories_v2/work/work_bg_64.png"
+                                          />
+                            </WithStyles(ListItemIcon)>
+                            <WithStyles(ListItemText)
+                                          inset={true}
+                                          primary="Adyen"
+                            />
+              </WithStyles(ListItem)>
+</WithStyles(ListItem)>,
+          ],
+        ],
+        "component": "nav",
+        "subheader": <WithStyles(ListSubheader)
+          component="div"
+          style={
+                    Object {
+                              "color": "#00112c",
+                              "fontSize": "2.4rem",
+                            }
+          }
+>
+          Nearby venues
+</WithStyles(ListSubheader)>,
+      },
+      "ref": null,
+      "rendered": Array [
         false,
-        <WithStyles(List)
+        false,
+        Object {
+          "instance": null,
+          "key": "4dd569c0d4c05d5096b871d4",
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(ListItem)
+              button={true}
+              onClick={[Function]}
+>
+              <WithStyles(ListItemIcon)>
+                            <WithStyles(Avatar)
+                                          alt="Pizza Places"
+                                          src="https://ss3.4sqi.net/img/categories_v2/food/pizza_bg_64.png"
+                            />
+              </WithStyles(ListItemIcon)>
+              <WithStyles(ListItemText)
+                            inset={true}
+                            primary="Pizza Picasso & Grill"
+              />
+</WithStyles(ListItem)>,
+            "disableGutters": true,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "button": true,
+              "children": Array [
+                <WithStyles(ListItemIcon)>
+                  <WithStyles(Avatar)
+                                    alt="Pizza Places"
+                                    src="https://ss3.4sqi.net/img/categories_v2/food/pizza_bg_64.png"
+                  />
+</WithStyles(ListItemIcon)>,
+                <WithStyles(ListItemText)
+                  inset={true}
+                  primary="Pizza Picasso & Grill"
+/>,
+              ],
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <WithStyles(Avatar)
+                    alt="Pizza Places"
+                    src="https://ss3.4sqi.net/img/categories_v2/food/pizza_bg_64.png"
+/>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "alt": "Pizza Places",
+                    "src": "https://ss3.4sqi.net/img/categories_v2/food/pizza_bg_64.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "inset": true,
+                  "primary": "Pizza Picasso & Grill",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "abcd",
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(ListItem)
+              button={true}
+              onClick={[Function]}
+>
+              <WithStyles(ListItemIcon)>
+                            <WithStyles(Avatar)
+                                          alt="Work Places"
+                                          src="https://ss3.4sqi.net/img/categories_v2/work/work_bg_64.png"
+                            />
+              </WithStyles(ListItemIcon)>
+              <WithStyles(ListItemText)
+                            inset={true}
+                            primary="Adyen"
+              />
+</WithStyles(ListItem)>,
+            "disableGutters": true,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "button": true,
+              "children": Array [
+                <WithStyles(ListItemIcon)>
+                  <WithStyles(Avatar)
+                                    alt="Work Places"
+                                    src="https://ss3.4sqi.net/img/categories_v2/work/work_bg_64.png"
+                  />
+</WithStyles(ListItemIcon)>,
+                <WithStyles(ListItemText)
+                  inset={true}
+                  primary="Adyen"
+/>,
+              ],
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <WithStyles(Avatar)
+                    alt="Work Places"
+                    src="https://ss3.4sqi.net/img/categories_v2/work/work_bg_64.png"
+/>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "alt": "Work Places",
+                    "src": "https://ss3.4sqi.net/img/categories_v2/work/work_bg_64.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "inset": true,
+                  "primary": "Adyen",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <WithStyles(List)
           component="nav"
           subheader={
                     <WithStyles(ListSubheader)
@@ -72,6 +378,7 @@ ShallowWrapper {
           >
                     <WithStyles(ListItem)
                               button={true}
+                              onClick={[Function]}
                     >
                               <WithStyles(ListItemIcon)>
                                         <WithStyles(Avatar)
@@ -90,6 +397,7 @@ ShallowWrapper {
           >
                     <WithStyles(ListItem)
                               button={true}
+                              onClick={[Function]}
                     >
                               <WithStyles(ListItemIcon)>
                                         <WithStyles(Avatar)
@@ -104,53 +412,56 @@ ShallowWrapper {
                     </WithStyles(ListItem)>
           </WithStyles(ListItem)>
 </WithStyles(List)>,
-      ],
-    },
-    "ref": null,
-    "rendered": Array [
-      false,
-      Object {
+      },
+      "ref": null,
+      "rendered": Object {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            <WithStyles(ListItem)
-              disableGutters={true}
->
+            false,
+            false,
+            Array [
               <WithStyles(ListItem)
-                            button={true}
-              >
-                            <WithStyles(ListItemIcon)>
-                                          <WithStyles(Avatar)
-                                                        alt="Pizza Places"
-                                                        src="https://ss3.4sqi.net/img/categories_v2/food/pizza_bg_64.png"
-                                          />
-                            </WithStyles(ListItemIcon)>
-                            <WithStyles(ListItemText)
-                                          inset={true}
-                                          primary="Pizza Picasso & Grill"
-                            />
-              </WithStyles(ListItem)>
-</WithStyles(ListItem)>,
-            <WithStyles(ListItem)
-              disableGutters={true}
+                disableGutters={true}
 >
-              <WithStyles(ListItem)
-                            button={true}
-              >
-                            <WithStyles(ListItemIcon)>
-                                          <WithStyles(Avatar)
-                                                        alt="Work Places"
-                                                        src="https://ss3.4sqi.net/img/categories_v2/work/work_bg_64.png"
-                                          />
-                            </WithStyles(ListItemIcon)>
-                            <WithStyles(ListItemText)
-                                          inset={true}
-                                          primary="Adyen"
-                            />
-              </WithStyles(ListItem)>
+                <WithStyles(ListItem)
+                                button={true}
+                                onClick={[Function]}
+                >
+                                <WithStyles(ListItemIcon)>
+                                                <WithStyles(Avatar)
+                                                                alt="Pizza Places"
+                                                                src="https://ss3.4sqi.net/img/categories_v2/food/pizza_bg_64.png"
+                                                />
+                                </WithStyles(ListItemIcon)>
+                                <WithStyles(ListItemText)
+                                                inset={true}
+                                                primary="Pizza Picasso & Grill"
+                                />
+                </WithStyles(ListItem)>
 </WithStyles(ListItem)>,
+              <WithStyles(ListItem)
+                disableGutters={true}
+>
+                <WithStyles(ListItem)
+                                button={true}
+                                onClick={[Function]}
+                >
+                                <WithStyles(ListItemIcon)>
+                                                <WithStyles(Avatar)
+                                                                alt="Work Places"
+                                                                src="https://ss3.4sqi.net/img/categories_v2/work/work_bg_64.png"
+                                                />
+                                </WithStyles(ListItemIcon)>
+                                <WithStyles(ListItemText)
+                                                inset={true}
+                                                primary="Adyen"
+                                />
+                </WithStyles(ListItem)>
+</WithStyles(ListItem)>,
+            ],
           ],
           "component": "nav",
           "subheader": <WithStyles(ListSubheader)
@@ -167,6 +478,8 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": Array [
+          false,
+          false,
           Object {
             "instance": null,
             "key": "4dd569c0d4c05d5096b871d4",
@@ -174,6 +487,7 @@ ShallowWrapper {
             "props": Object {
               "children": <WithStyles(ListItem)
                 button={true}
+                onClick={[Function]}
 >
                 <WithStyles(ListItemIcon)>
                                 <WithStyles(Avatar)
@@ -207,6 +521,7 @@ ShallowWrapper {
                     primary="Pizza Picasso & Grill"
 />,
                 ],
+                "onClick": [Function],
               },
               "ref": null,
               "rendered": Array [
@@ -259,6 +574,7 @@ ShallowWrapper {
             "props": Object {
               "children": <WithStyles(ListItem)
                 button={true}
+                onClick={[Function]}
 >
                 <WithStyles(ListItemIcon)>
                                 <WithStyles(Avatar)
@@ -292,6 +608,7 @@ ShallowWrapper {
                     primary="Adyen"
 />,
                 ],
+                "onClick": [Function],
               },
               "ref": null,
               "rendered": Array [
@@ -340,307 +657,6 @@ ShallowWrapper {
         ],
         "type": [Function],
       },
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          false,
-          <WithStyles(List)
-            component="nav"
-            subheader={
-                        <WithStyles(ListSubheader)
-                                    component="div"
-                                    style={
-                                                Object {
-                                                            "color": "#00112c",
-                                                            "fontSize": "2.4rem",
-                                                          }
-                                    }
-                        >
-                                    Nearby venues
-                        </WithStyles(ListSubheader)>
-            }
->
-            <WithStyles(ListItem)
-                        disableGutters={true}
-            >
-                        <WithStyles(ListItem)
-                                    button={true}
-                        >
-                                    <WithStyles(ListItemIcon)>
-                                                <WithStyles(Avatar)
-                                                            alt="Pizza Places"
-                                                            src="https://ss3.4sqi.net/img/categories_v2/food/pizza_bg_64.png"
-                                                />
-                                    </WithStyles(ListItemIcon)>
-                                    <WithStyles(ListItemText)
-                                                inset={true}
-                                                primary="Pizza Picasso & Grill"
-                                    />
-                        </WithStyles(ListItem)>
-            </WithStyles(ListItem)>
-            <WithStyles(ListItem)
-                        disableGutters={true}
-            >
-                        <WithStyles(ListItem)
-                                    button={true}
-                        >
-                                    <WithStyles(ListItemIcon)>
-                                                <WithStyles(Avatar)
-                                                            alt="Work Places"
-                                                            src="https://ss3.4sqi.net/img/categories_v2/work/work_bg_64.png"
-                                                />
-                                    </WithStyles(ListItemIcon)>
-                                    <WithStyles(ListItemText)
-                                                inset={true}
-                                                primary="Adyen"
-                                    />
-                        </WithStyles(ListItem)>
-            </WithStyles(ListItem)>
-</WithStyles(List)>,
-        ],
-      },
-      "ref": null,
-      "rendered": Array [
-        false,
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": Array [
-              <WithStyles(ListItem)
-                disableGutters={true}
->
-                <WithStyles(ListItem)
-                                button={true}
-                >
-                                <WithStyles(ListItemIcon)>
-                                                <WithStyles(Avatar)
-                                                                alt="Pizza Places"
-                                                                src="https://ss3.4sqi.net/img/categories_v2/food/pizza_bg_64.png"
-                                                />
-                                </WithStyles(ListItemIcon)>
-                                <WithStyles(ListItemText)
-                                                inset={true}
-                                                primary="Pizza Picasso & Grill"
-                                />
-                </WithStyles(ListItem)>
-</WithStyles(ListItem)>,
-              <WithStyles(ListItem)
-                disableGutters={true}
->
-                <WithStyles(ListItem)
-                                button={true}
-                >
-                                <WithStyles(ListItemIcon)>
-                                                <WithStyles(Avatar)
-                                                                alt="Work Places"
-                                                                src="https://ss3.4sqi.net/img/categories_v2/work/work_bg_64.png"
-                                                />
-                                </WithStyles(ListItemIcon)>
-                                <WithStyles(ListItemText)
-                                                inset={true}
-                                                primary="Adyen"
-                                />
-                </WithStyles(ListItem)>
-</WithStyles(ListItem)>,
-            ],
-            "component": "nav",
-            "subheader": <WithStyles(ListSubheader)
-              component="div"
-              style={
-                            Object {
-                                          "color": "#00112c",
-                                          "fontSize": "2.4rem",
-                                        }
-              }
->
-              Nearby venues
-</WithStyles(ListSubheader)>,
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": "4dd569c0d4c05d5096b871d4",
-              "nodeType": "class",
-              "props": Object {
-                "children": <WithStyles(ListItem)
-                  button={true}
->
-                  <WithStyles(ListItemIcon)>
-                                    <WithStyles(Avatar)
-                                                      alt="Pizza Places"
-                                                      src="https://ss3.4sqi.net/img/categories_v2/food/pizza_bg_64.png"
-                                    />
-                  </WithStyles(ListItemIcon)>
-                  <WithStyles(ListItemText)
-                                    inset={true}
-                                    primary="Pizza Picasso & Grill"
-                  />
-</WithStyles(ListItem)>,
-                "disableGutters": true,
-              },
-              "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "class",
-                "props": Object {
-                  "button": true,
-                  "children": Array [
-                    <WithStyles(ListItemIcon)>
-                      <WithStyles(Avatar)
-                                            alt="Pizza Places"
-                                            src="https://ss3.4sqi.net/img/categories_v2/food/pizza_bg_64.png"
-                      />
-</WithStyles(ListItemIcon)>,
-                    <WithStyles(ListItemText)
-                      inset={true}
-                      primary="Pizza Picasso & Grill"
-/>,
-                  ],
-                },
-                "ref": null,
-                "rendered": Array [
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "class",
-                    "props": Object {
-                      "children": <WithStyles(Avatar)
-                        alt="Pizza Places"
-                        src="https://ss3.4sqi.net/img/categories_v2/food/pizza_bg_64.png"
-/>,
-                    },
-                    "ref": null,
-                    "rendered": Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "class",
-                      "props": Object {
-                        "alt": "Pizza Places",
-                        "src": "https://ss3.4sqi.net/img/categories_v2/food/pizza_bg_64.png",
-                      },
-                      "ref": null,
-                      "rendered": null,
-                      "type": [Function],
-                    },
-                    "type": [Function],
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "class",
-                    "props": Object {
-                      "inset": true,
-                      "primary": "Pizza Picasso & Grill",
-                    },
-                    "ref": null,
-                    "rendered": null,
-                    "type": [Function],
-                  },
-                ],
-                "type": [Function],
-              },
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": "abcd",
-              "nodeType": "class",
-              "props": Object {
-                "children": <WithStyles(ListItem)
-                  button={true}
->
-                  <WithStyles(ListItemIcon)>
-                                    <WithStyles(Avatar)
-                                                      alt="Work Places"
-                                                      src="https://ss3.4sqi.net/img/categories_v2/work/work_bg_64.png"
-                                    />
-                  </WithStyles(ListItemIcon)>
-                  <WithStyles(ListItemText)
-                                    inset={true}
-                                    primary="Adyen"
-                  />
-</WithStyles(ListItem)>,
-                "disableGutters": true,
-              },
-              "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "class",
-                "props": Object {
-                  "button": true,
-                  "children": Array [
-                    <WithStyles(ListItemIcon)>
-                      <WithStyles(Avatar)
-                                            alt="Work Places"
-                                            src="https://ss3.4sqi.net/img/categories_v2/work/work_bg_64.png"
-                      />
-</WithStyles(ListItemIcon)>,
-                    <WithStyles(ListItemText)
-                      inset={true}
-                      primary="Adyen"
-/>,
-                  ],
-                },
-                "ref": null,
-                "rendered": Array [
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "class",
-                    "props": Object {
-                      "children": <WithStyles(Avatar)
-                        alt="Work Places"
-                        src="https://ss3.4sqi.net/img/categories_v2/work/work_bg_64.png"
-/>,
-                    },
-                    "ref": null,
-                    "rendered": Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "class",
-                      "props": Object {
-                        "alt": "Work Places",
-                        "src": "https://ss3.4sqi.net/img/categories_v2/work/work_bg_64.png",
-                      },
-                      "ref": null,
-                      "rendered": null,
-                      "type": [Function],
-                    },
-                    "type": [Function],
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "class",
-                    "props": Object {
-                      "inset": true,
-                      "primary": "Adyen",
-                    },
-                    "ref": null,
-                    "rendered": null,
-                    "type": [Function],
-                  },
-                ],
-                "type": [Function],
-              },
-              "type": [Function],
-            },
-          ],
-          "type": [Function],
-        },
-      ],
       "type": "div",
     },
   ],
@@ -674,139 +690,54 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": Array [
-        <div
-          style={
-                    Object {
-                              "color": "#1b2b44",
-                              "padding": "16px 8px",
-                              "textAlign": "center",
-                              "width": "100%",
-                            }
-          }
+      "children": <WithStyles(List)
+        component="nav"
+        subheader={
+                <WithStyles(ListSubheader)
+                        component="div"
+                        style={
+                                Object {
+                                        "color": "#00112c",
+                                        "fontSize": "2.4rem",
+                                      }
+                        }
+                >
+                        Nearby venues
+                </WithStyles(ListSubheader)>
+        }
 >
-          <p>
-                    Loading venues...
-          </p>
-          <WithStyles(CircularProgress)
-                    style={
-                              Object {
+        <div
+                style={
+                        Object {
+                                "color": "#1b2b44",
+                                "padding": "16px 8px",
+                                "textAlign": "center",
+                                "width": "100%",
+                              }
+                }
+        >
+                <p>
+                        Loading venues...
+                </p>
+                <WithStyles(CircularProgress)
+                        style={
+                                Object {
                                         "display": "inline-block",
                                       }
-                    }
-                    thickness={1}
-          />
-</div>,
-        <WithStyles(List)
-          component="nav"
-          subheader={
-                    <WithStyles(ListSubheader)
-                              component="div"
-                              style={
-                                        Object {
-                                                  "color": "#00112c",
-                                                  "fontSize": "2.4rem",
-                                                }
-                              }
-                    >
-                              Nearby venues
-                    </WithStyles(ListSubheader)>
-          }
->
-          
+                        }
+                        thickness={1}
+                />
+        </div>
 </WithStyles(List)>,
-      ],
     },
     "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <p>
-              Loading venues...
-</p>,
-            <WithStyles(CircularProgress)
-              style={
-                            Object {
-                                          "display": "inline-block",
-                                        }
-              }
-              thickness={1}
-/>,
-          ],
-          "style": Object {
-            "color": "#1b2b44",
-            "padding": "16px 8px",
-            "textAlign": "center",
-            "width": "100%",
-          },
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Loading venues...",
-            },
-            "ref": null,
-            "rendered": "Loading venues...",
-            "type": "p",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "style": Object {
-                "display": "inline-block",
-              },
-              "thickness": 1,
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-        ],
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": Array [],
-          "component": "nav",
-          "subheader": <WithStyles(ListSubheader)
-            component="div"
-            style={
-                        Object {
-                                    "color": "#00112c",
-                                    "fontSize": "2.4rem",
-                                  }
-            }
->
-            Nearby venues
-</WithStyles(ListSubheader)>,
-        },
-        "ref": null,
-        "rendered": Array [],
-        "type": [Function],
-      },
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
+    "rendered": Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "host",
+      "nodeType": "class",
       "props": Object {
         "children": Array [
+          false,
           <div
             style={
                         Object {
@@ -829,28 +760,24 @@ ShallowWrapper {
                         thickness={1}
             />
 </div>,
-          <WithStyles(List)
-            component="nav"
-            subheader={
-                        <WithStyles(ListSubheader)
-                                    component="div"
-                                    style={
-                                                Object {
-                                                            "color": "#00112c",
-                                                            "fontSize": "2.4rem",
-                                                          }
-                                    }
-                        >
-                                    Nearby venues
-                        </WithStyles(ListSubheader)>
-            }
->
-            
-</WithStyles(List)>,
+          Array [],
         ],
+        "component": "nav",
+        "subheader": <WithStyles(ListSubheader)
+          component="div"
+          style={
+                    Object {
+                              "color": "#00112c",
+                              "fontSize": "2.4rem",
+                            }
+          }
+>
+          Nearby venues
+</WithStyles(ListSubheader)>,
       },
       "ref": null,
       "rendered": Array [
+        false,
         Object {
           "instance": null,
           "key": undefined,
@@ -906,30 +833,163 @@ ShallowWrapper {
           ],
           "type": "div",
         },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": Array [],
-            "component": "nav",
-            "subheader": <WithStyles(ListSubheader)
-              component="div"
+      ],
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <WithStyles(List)
+          component="nav"
+          subheader={
+                    <WithStyles(ListSubheader)
+                              component="div"
+                              style={
+                                        Object {
+                                                  "color": "#00112c",
+                                                  "fontSize": "2.4rem",
+                                                }
+                              }
+                    >
+                              Nearby venues
+                    </WithStyles(ListSubheader)>
+          }
+>
+          <div
+                    style={
+                              Object {
+                                        "color": "#1b2b44",
+                                        "padding": "16px 8px",
+                                        "textAlign": "center",
+                                        "width": "100%",
+                                      }
+                    }
+          >
+                    <p>
+                              Loading venues...
+                    </p>
+                    <WithStyles(CircularProgress)
+                              style={
+                                        Object {
+                                                  "display": "inline-block",
+                                                }
+                              }
+                              thickness={1}
+                    />
+          </div>
+</WithStyles(List)>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            false,
+            <div
               style={
                             Object {
-                                          "color": "#00112c",
-                                          "fontSize": "2.4rem",
+                                          "color": "#1b2b44",
+                                          "padding": "16px 8px",
+                                          "textAlign": "center",
+                                          "width": "100%",
                                         }
               }
 >
-              Nearby venues
+              <p>
+                            Loading venues...
+              </p>
+              <WithStyles(CircularProgress)
+                            style={
+                                          Object {
+                                                        "display": "inline-block",
+                                                      }
+                            }
+                            thickness={1}
+              />
+</div>,
+            Array [],
+          ],
+          "component": "nav",
+          "subheader": <WithStyles(ListSubheader)
+            component="div"
+            style={
+                        Object {
+                                    "color": "#00112c",
+                                    "fontSize": "2.4rem",
+                                  }
+            }
+>
+            Nearby venues
 </WithStyles(ListSubheader)>,
-          },
-          "ref": null,
-          "rendered": Array [],
-          "type": [Function],
         },
-      ],
+        "ref": null,
+        "rendered": Array [
+          false,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <p>
+                  Loading venues...
+</p>,
+                <WithStyles(CircularProgress)
+                  style={
+                                    Object {
+                                                      "display": "inline-block",
+                                                    }
+                  }
+                  thickness={1}
+/>,
+              ],
+              "style": Object {
+                "color": "#1b2b44",
+                "padding": "16px 8px",
+                "textAlign": "center",
+                "width": "100%",
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Loading venues...",
+                },
+                "ref": null,
+                "rendered": "Loading venues...",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "style": Object {
+                    "display": "inline-block",
+                  },
+                  "thickness": 1,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": [Function],
+      },
       "type": "div",
     },
   ],

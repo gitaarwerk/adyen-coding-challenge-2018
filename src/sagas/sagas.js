@@ -3,7 +3,8 @@ import * as actions from '../actionCreators/actionCreators';
 
 import getGeoLocationFromBrowser from '../utils/getGeoLocationFromBrowser';
 import mapFoursquareResultToUsefulInfo from '../utils/mapFoursquareResultToUsefulInfo';
-import { getPizzaPlaces } from '../repositories/fourSquare';
+import mapVenueItem from '../utils/mapVenueItem';
+import { getPlaces, getVenueDetails } from '../repositories/fourSquare';
 
 export function* getCurrentGPSLocation() {
   try {
@@ -26,16 +27,24 @@ export function* getCurrentGPSLocation() {
 }
 
 export function* getVenues({ payload: coords }) {
-  try {
-    const { res, err } = yield call(getPizzaPlaces, coords);
-    if (res.response && res.response.groups && res.response.groups[0].items) {
-      yield put(
-        actions.getVenuesSuccess(
-          mapFoursquareResultToUsefulInfo(res.response.groups[0].items.map(item => item.venue))
-        )
-      );
-    }
-  } catch (err) {
+  const { res, err } = yield call(getPlaces, { place: 'food', ...coords });
+  if (res.response && res.response.groups && res.response.groups[0].items) {
+    yield put(
+      actions.getVenuesSuccess(
+        mapFoursquareResultToUsefulInfo(res.response.groups[0].items.map(item => item.venue))
+      )
+    );
+  } else {
     yield put(actions.getVenuesFailed(err));
+  }
+}
+
+export function* loadVenueItem({ payload: id }) {
+  const { res, err } = yield call(getVenueDetails, id);
+  if (res) {
+    console.log(res);
+    yield put(actions.loadVenueItemSuccess(mapVenueItem(res.response.venue)));
+  } else {
+    yield put(actions.loadVenueItemFailed(err));
   }
 }
