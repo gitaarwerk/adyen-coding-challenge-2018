@@ -4,7 +4,7 @@
 export default () => {
   return new Promise((resolve, reject) => {
     if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(resolve, reject, {
+      navigator.geolocation.watchPosition(resolve, reject, {
         enableHighAccuracy: true,
         timeout: 10000
       });
