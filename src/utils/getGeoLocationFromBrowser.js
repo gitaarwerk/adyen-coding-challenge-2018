@@ -1,3 +1,6 @@
+/**
+ * @returns Promise<Response>
+ */
 export default () => {
   return new Promise((resolve, reject) => {
     if (navigator.geolocation) {
