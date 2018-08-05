@@ -36,6 +36,10 @@ ShallowWrapper {
       "position": "static",
       "style": Object {
         "background": "rgba(10,191,82,1) linear-gradient(45deg, rgba(10,191,82,1) 0%, rgba(106,208,155,1) 100%)",
+        "left": 0,
+        "position": "fixed",
+        "top": 0,
+        "width": "100%",
       },
     },
     "ref": null,
@@ -126,6 +130,10 @@ ShallowWrapper {
         "position": "static",
         "style": Object {
           "background": "rgba(10,191,82,1) linear-gradient(45deg, rgba(10,191,82,1) 0%, rgba(106,208,155,1) 100%)",
+          "left": 0,
+          "position": "fixed",
+          "top": 0,
+          "width": "100%",
         },
       },
       "ref": null,

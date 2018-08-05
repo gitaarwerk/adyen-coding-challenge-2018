@@ -6,6 +6,10 @@ import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 
 const appBarStyling = {
+  position: 'fixed',
+  top: 0,
+  left: 0,
+  width: '100%',
   background:
     'rgba(10,191,82,1) linear-gradient(45deg, rgba(10,191,82,1) 0%, rgba(106,208,155,1) 100%)'
 };

@@ -5,19 +5,21 @@ export const geoLocation = {
 
 export const venues = [
   {
+    id: '4dd569c0d4c05d5096b871d4',
     name: 'Pizza Picasso & Grill',
     address: ['Wagnerplein', '2324 Leiden', 'Netherlands'],
     icon: {
       name: 'Pizza Places',
-      url: 'https://ss3.4sqi.net/img/categories_v2/food/pizza_64.png'
+      url: 'https://ss3.4sqi.net/img/categories_v2/food/pizza_bg_64.png'
     }
   },
   {
+    id: 'abcd',
     name: 'Adyen',
     address: ['Keizersgracht', 'Amsterdam', 'Netherlands'],
     icon: {
       name: 'Work Places',
-      url: 'https://ss3.4sqi.net/img/categories_v2/work/work_64.png'
+      url: 'https://ss3.4sqi.net/img/categories_v2/work/work_bg_64.png'
     }
   }
 ];

@@ -12,13 +12,13 @@ const locationFormatter = (longitude, latitude) => `${latitude},${longitude}`;
  * @returns {Promise}
  */
 export function getPizzaPlaces({ longitude, latitude }) {
-  return get(`${apiBaseUrl}/venues/search`, {
+  return get(`${apiBaseUrl}/venues/explore`, {
     client_id,
     client_secret,
     ll: locationFormatter(longitude, latitude),
-    query: 'pizza, lunch',
+    query: 'food',
     v: formattedDate,
-    radius: 250,
+    radius: 1000,
     limit: 20
   }).then(parseRequest);
 }

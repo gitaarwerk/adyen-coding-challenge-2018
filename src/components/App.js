@@ -2,20 +2,12 @@ import React from 'react';
 import SimpleAppBar from './SimpleAppBar';
 
 import '../App.css';
+import VenuesListContainer from '../containers/VenuesListContainer';
 
 const App = ({ location }) => (
-  <div>
+  <div style={{ paddingTop: '48px' }}>
     <SimpleAppBar />
-    <h1>
-      Current location:{' '}
-      {location.latitude &&
-        location.longitude && (
-          <div>
-            lat: {location.latitude}, long: {location.longitude}
-          </div>
-        )}
-    </h1>
-    <div>Bootstrapped Adyen coding challenge app</div>
+    <VenuesListContainer />
   </div>
 );
 export default App;

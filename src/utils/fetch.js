@@ -1,5 +1,4 @@
 function objectToQueryString(dataObject) {
-  console.log('data', dataObject);
   const newQueryStringBuffer = [];
   for (var item in dataObject) {
     if (dataObject[item]) {

@@ -28,8 +28,12 @@ export function* getCurrentGPSLocation() {
 export function* getVenues({ payload: coords }) {
   try {
     const { res, err } = yield call(getPizzaPlaces, coords);
-    if (res.response && res.response.venues) {
-      yield put(actions.getVenuesSuccess(mapFoursquareResultToUsefulInfo(res.response.venues)));
+    if (res.response && res.response.groups && res.response.groups[0].items) {
+      yield put(
+        actions.getVenuesSuccess(
+          mapFoursquareResultToUsefulInfo(res.response.groups[0].items.map(item => item.venue))
+        )
+      );
     }
   } catch (err) {
     yield put(actions.getVenuesFailed(err));

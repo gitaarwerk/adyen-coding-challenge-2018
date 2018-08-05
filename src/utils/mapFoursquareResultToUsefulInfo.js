@@ -8,11 +8,12 @@ const iconSize = '64';
 export default foursquareResponse => {
   return foursquareResponse.map(item => {
     return {
+      id: item.id,
       name: item.name,
       address: item.location.formattedAddress,
       icon: {
         name: item.categories[0].pluralName,
-        url: `${item.categories[0].icon.prefix}${iconSize}${item.categories[0].icon.suffix}`
+        url: `${item.categories[0].icon.prefix}bg_${iconSize}${item.categories[0].icon.suffix}`
       }
     };
   });
