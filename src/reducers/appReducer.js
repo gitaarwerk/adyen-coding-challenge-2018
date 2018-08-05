@@ -2,16 +2,15 @@ import { handleActions } from 'redux-actions';
 import * as types from '../actionTypes/actionTypes';
 
 const defaultState = {
-  selectedVenues: []
+  location: 'not obtained yet...'
 };
 
 export default handleActions(
   {
-    [types.TOGGLE_VENUE]: (state, { payload: selectedVenue }) => ({
+    [types.GET_CURRENT_GPS_LOCATION_SUCCESS]: (state, { payload: { latitude, longitude } }) => ({
       ...state,
-      selectedVenues: selectedVenue
-    }) // reducer placeholder
+      location: { latitude, longitude }
+    })
   },
-
   defaultState
 );

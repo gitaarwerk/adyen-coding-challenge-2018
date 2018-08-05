@@ -5,11 +5,11 @@ import store from './store';
 import registerServiceWorker from './registerServiceWorker';
 
 import './index.css';
-import App from './App';
+import AppContainer from './containers/AppContainer';
 
 render(
   <Provider store={store}>
-    <App />
+    <AppContainer />
   </Provider>,
   document.getElementById('root')
 );
